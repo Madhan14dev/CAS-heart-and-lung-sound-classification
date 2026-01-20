@@ -1,0 +1,5 @@
+{
+  "sample_rate": 2000,
+  "max_duration_sec": 30,
+  "decision_threshold": 0.50
+}
