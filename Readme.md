@@ -1,8 +1,25 @@
-## Model Comparison Results
+## Model Results
+
+### NOTE : 
+ Model 1 - 90/10 split [Trained upto 5 epochs]
+
+ Model 2 - 80/20 split [Trained upto 10 epochs]
+
+---
+## Performance Summary
+
+| Metric            | Model 1 | Model 2 |
+|-------------------|--------|--------|
+| Optimal Threshold | 0.75   | 0.69   |
+| Accuracy          | 0.9137 | 0.8848 |
+| Balanced Accuracy | 0.8674 | 0.8361 |
+| ROC-AUC           | 0.9370 | 0.9256 |
+| Sensitivity   | 0.7865 | 0.7514 |
+| Specificity   | 0.9482 | 0.9207 |
 
 ---
 
-### 🧾 Classification Reports
+### Classification Reports
 
 #### Model 1
 ![Classification Report - Model 1](images/Model_1_report.png)
@@ -39,19 +56,6 @@
 
 #### Model 2
 ![Precision-Recall Curve  - Model 2](images/model2_precisoncurve.png)
-
----
-
-## 📌 Performance Summary
-
-| Metric            | Model 1 | Model 2 |
-|-------------------|--------|--------|
-| Optimal Threshold | 0.75   | 0.69   |
-| Accuracy          | 0.9137 | 0.8848 |
-| Balanced Accuracy | 0.8674 | 0.8361 |
-| ROC-AUC           | 0.9370 | 0.9256 |
-| Sensitivity   | 0.7865 | 0.7514 |
-| Specificity   | 0.9482 | 0.9207 |
 
 
 ---
