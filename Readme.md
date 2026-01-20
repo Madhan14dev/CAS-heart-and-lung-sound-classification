@@ -1,17 +1,11 @@
-## 📊 Model Comparison Results
-
-This section compares two models using:
-- Classification Report  
-- Confusion Matrix  
-- ROC-AUC Curve  
-- Precision-Recall Curve  
+## Model Comparison Results
 
 ---
 
 ### 🧾 Classification Reports
 
 #### Model 1
-![Classification Report - Model 1](images/model_1_report.png)
+![Classification Report - Model 1](images/Model_1_report.png)
 
 #### Model 2
 ![Classification Report - Model 2](images/model2_report.png)

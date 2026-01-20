@@ -8,7 +8,7 @@ from model import MurmurModel
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 CONFIG_PATH = os.path.join(BASE_DIR, "config.json")
-MODEL_PATH = os.path.join(BASE_DIR, "hs_murmur_model_v3.pt")
+MODEL_PATH = os.path.join(BASE_DIR, "hs_murmur_model_v1.pt")
 
 with open(CONFIG_PATH, "r") as f:
     CONFIG = json.load(f)
