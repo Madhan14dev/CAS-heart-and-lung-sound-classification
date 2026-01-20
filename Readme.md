@@ -1,3 +1,69 @@
+## 📊 Model Comparison Results
+
+This section compares two models using:
+- Classification Report  
+- Confusion Matrix  
+- ROC-AUC Curve  
+- Precision-Recall Curve  
+
+---
+
+### 🧾 Classification Reports
+
+#### Model 1
+![Classification Report - Model 1](images/model_1_report.png)
+
+#### Model 2
+![Classification Report - Model 2](images/model2_report.png)
+
+---
+
+###  Confusion Matrices
+
+#### Model 1
+![Confusion Matrix - Model 1](images/model1_confusionmatrix.png)
+
+#### Model 2
+![Confusion Matrix - Model 2](images/model2_confusionmatrix.png)
+
+---
+
+###  ROC-AUC Curve Comparison
+
+#### Model 1
+![ROC-AUC Curve - Model 1](images/model1_auccurve.png)
+
+#### Model 2
+![ROC-AUC Curve - Model 2](images/model2_auccurve.png)
+
+---
+
+###  Precision-Recall Curve Comparison
+
+#### Model 1
+![Precision-Recall Curve - Model 1](images/model1_precisoncurve.png)
+
+#### Model 2
+![Precision-Recall Curve  - Model 2](images/model2_precisoncurve.png)
+
+---
+
+## 📌 Performance Summary
+
+| Metric            | Model 1 | Model 2 |
+|-------------------|--------|--------|
+| Optimal Threshold | 0.75   | 0.69   |
+| Accuracy          | 0.9137 | 0.8848 |
+| Balanced Accuracy | 0.8674 | 0.8361 |
+| ROC-AUC           | 0.9370 | 0.9256 |
+| Sensitivity   | 0.7865 | 0.7514 |
+| Specificity   | 0.9482 | 0.9207 |
+
+
+---
+
+### Sample test result
+
 <table border="3">
   <thead>
     <tr>
