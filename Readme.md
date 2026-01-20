@@ -85,3 +85,11 @@
     <tr><td>test_10</td><td>physionet_training</td><td>Present</td><td>Present</td><td>Present</td></tr>
   </tbody>
 </table>
+
+### Test Performance
+| Metric    | Model 1 | Model 2 |
+|-----------|--------|--------|
+| Accuracy  | 0.50   | 0.60   |
+| Precision | 0.50   | 0.57   |
+| Recall    | 0.60   | 0.80   |
+| F1-score  | 0.55   | 0.67   |
