@@ -10,12 +10,12 @@
 
 | Metric            | Model 1 | Model 2 |
 |-------------------|--------|--------|
-| Optimal Threshold | 0.75   | 0.69   |
-| Accuracy          | 0.9137 | 0.8848 |
-| Balanced Accuracy | 0.8674 | 0.8361 |
-| ROC-AUC           | 0.9370 | 0.9256 |
-| Sensitivity   | 0.7865 | 0.7514 |
-| Specificity   | 0.9482 | 0.9207 |
+| Optimal Threshold | 0.52   | 0.61   |
+| Accuracy          | 0.9065 | 0.9089 |
+| Balanced Accuracy | 0.8545 | 0.8642 |
+| ROC-AUC           | 0.9043 | 0.9306 |
+| Sensitivity   | 0.8427 | 0.8427 |
+| Specificity   | 0.8719 | 0.8719 |
 
 ---
 
