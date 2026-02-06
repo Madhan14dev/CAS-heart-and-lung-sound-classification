@@ -4,7 +4,6 @@ import torch.nn as nn
 import torchaudio
 from transformers import WhisperModel
 import json
-torchaudio.set_audio_backend("soundfile")
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
