@@ -28,7 +28,7 @@ model.eval()
 
 
 def preprocess_audio(path: str) -> torch.Tensor:
-    wav, sr = torchaudio.load(path)
+    wav, sr = torchaudio.load(path, backend="soundfile")
     wav = wav.mean(0)
 
     if sr != SAMPLE_RATE:
